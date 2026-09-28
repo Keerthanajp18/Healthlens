@@ -1,0 +1,24 @@
+# HealthLens - Person 1: Document Processing + Medical Data Pipeline
+# Core Dependencies
+
+# PDF document reading and text extraction (Stage 2)
+pypdf>=5.0.0
+
+# Image handling and preprocessing for scanned reports (Stage 5)
+pillow>=10.0.0
+
+# OCR python wrapper for scanned reports and images (Stage 5)
+# Note: Native Tesseract OCR engine (tesseract.exe) must be installed separately on Windows
+pytesseract>=0.3.10
+
+# Standalone PDF rendering to images for scanned PDF OCR (Stage 5)
+pypdfium2>=4.0.0
+
+# Tabular data structures, comparison, and trend analysis
+pandas>=2.2.0
+
+# Visualization of medical test trends over time
+matplotlib>=3.8.0
+
+# Synthetic document generation utility (for testing and benchmarks)
+reportlab>=4.0.0

@@ -1,0 +1,108 @@
+--- Page 1 of 2 ---
+HEALTHLENS DIAGNOSTIC LABORATORY
+ Accredited Medical Testing & Pathology Services | Synthetic Test Report
+Patient Name: Sarah Jenkins
+Age / Gender: 35 Y / Female
+Patient ID: HL-2024-5501
+Referred By: Dr. David Miller, MD
+Sample ID: SMP-77102
+Collection Date: 10-Feb-2024 08:15 AM
+Sample Type: Whole Blood (EDTA)
+Reporting Date: 10-Feb-2024 01:30 PM
+DEPARTMENT OF HEMATOLOGY: COMPLETE BLOOD COUNT (CBC)
+Investigation / Test
+Observed Value
+Unit
+Biological Reference Range
+Hemoglobin (Hb)
+11.5
+g/dL
+12.0 - 15.5
+RBC Count
+3.95
+million/mcL
+3.80 - 5.10
+Packed Cell Volume (PCV)
+35.2
+%
+36.0 - 46.0
+Mean Corpuscular Volume (MCV)
+89.1
+fL
+80.0 - 100.0
+MCH
+29.1
+pg
+27.0 - 33.0
+MCHC
+32.6
+g/dL
+31.5 - 35.0
+RDW
+13.4
+%
+11.5 - 15.0
+Total Leukocyte Count (WBC)
+11200
+cells/mcL
+4000 - 11000
+Platelet Count
+260000
+cells/mcL
+150000 - 450000
+Neutrophils
+72
+%
+40 - 70
+Lymphocytes
+22
+%
+20 - 40
+Monocytes
+4
+%
+2 - 8
+Eosinophils
+2
+%
+1 - 6
+ Page 1 of 2 -- HealthLens Complete Blood Count Segment
+
+--- Page 2 of 2 ---
+HEALTHLENS DIAGNOSTIC LABORATORY
+ Accredited Medical Testing & Pathology Services | Synthetic Test Report
+DEPARTMENT OF BIOCHEMISTRY: LIPID PROFILE
+Investigation / Test
+Observed Value
+Unit
+Biological Reference Range
+Total Cholesterol
+215
+mg/dL
+< 200 Desirable
+Triglycerides
+165
+mg/dL
+< 150 Normal
+HDL Cholesterol
+48
+mg/dL
+> 50 Optimal
+LDL Cholesterol
+134
+mg/dL
+< 100 Optimal
+VLDL Cholesterol
+33
+mg/dL
+5 - 30
+Cholesterol / HDL Ratio
+4.48
+Ratio
+3.3 - 4.4
+CLINICAL IMPRESSIONS & LAB NOTES
+- Mild borderline anemia indicated by slightly decreased Hemoglobin and Hematocrit.
+- Mild neutrophilia / elevated total WBC count noted; recommend correlation for mild reactive inflammation.
+- Borderline elevation in Total Cholesterol and LDL. Lifestyle modification and dietary counseling suggested.
+- NOTE: This is a synthetic computer-generated report created exclusively for HealthLens capstone research.
+ Page 2 of 2 -- End of Diagnostic Laboratory Report

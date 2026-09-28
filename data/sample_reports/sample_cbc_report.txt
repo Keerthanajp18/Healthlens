@@ -1,0 +1,42 @@
+================================================================================
+                           METROPOLIS CLINICAL LABORATORY
+                    Comprehensive Health & Diagnostic Services
+================================================================================
+
+PATIENT DEMOGRAPHICS & SAMPLE INFORMATION:
+--------------------------------------------------------------------------------
+Patient Name   : John Doe                       Age / Gender : 42 Y / Male
+Patient ID     : PAT-2024-0891                  Referred By  : Dr. Rajesh Kumar, MD
+Sample ID      : SMP-98124                      Collection Date : 15-Jan-2024 08:30 AM
+Sample Type    : Whole Blood (EDTA)             Reporting Date  : 15-Jan-2024 02:15 PM
+--------------------------------------------------------------------------------
+
+DEPARTMENT OF HEMATOLOGY
+TEST NAME: COMPLETE BLOOD COUNT (CBC)
+
+--------------------------------------------------------------------------------
+Investigation                  Observed Value    Unit             Reference Range
+--------------------------------------------------------------------------------
+Hemoglobin (Hb)                11.2              g/dL             13.0 - 17.0
+RBC Count                      4.10              million/mcL      4.50 - 5.90
+Packed Cell Volume (PCV)       34.5              %                40.0 - 50.0
+Mean Corpuscular Volume (MCV)  84.1              fL               80.0 - 100.0
+MCH                            27.3              pg               27.0 - 33.0
+MCHC                           32.4              g/dL             31.5 - 35.0
+RDW (Red Cell Distribution)    14.8              %                11.5 - 15.0
+Total Leukocyte Count (WBC)    11500             cells/mcL        4000 - 11000
+Platelet Count                 255000            cells/mcL        150000 - 450000
+Neutrophils                    68                %                40 - 70
+Lymphocytes                    24                %                20 - 40
+Monocytes                      5                 %                2 - 8
+Eosinophils                    2                 %                1 - 6
+Basophils                      1                 %                0 - 2
+--------------------------------------------------------------------------------
+
+CLINICAL NOTES / OBSERVATIONS:
+- Microscopic examination reveals mild microcytic, normochromic RBC picture.
+- Elevated leukocyte count observed.
+- Advised clinical correlation and follow-up consultation with primary physician.
+
+*** End of Report ***
+================================================================================

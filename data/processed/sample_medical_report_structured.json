@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "source_file": "sample_medical_report.pdf",
+    "report_date": "10-Feb-2024",
+    "total_tests_extracted": 19,
+    "categories": [
+      "Complete Blood Count (CBC)",
+      "Lipid Profile"
+    ]
+  },
+  "tests": [
+    {
+      "test_name": "Hemoglobin (Hb)",
+      "value": 11.5,
+      "unit": "g/dL",
+      "reference_range": "12.0 - 15.5",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "RBC Count",
+      "value": 3.95,
+      "unit": "million/mcL",
+      "reference_range": "3.80 - 5.10",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Packed Cell Volume (PCV)",
+      "value": 35.2,
+      "unit": "%",
+      "reference_range": "36.0 - 46.0",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Mean Corpuscular Volume (MCV)",
+      "value": 89.1,
+      "unit": "fL",
+      "reference_range": "80.0 - 100.0",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "MCH",
+      "value": 29.1,
+      "unit": "pg",
+      "reference_range": "27.0 - 33.0",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "MCHC",
+      "value": 32.6,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 35.0",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "RDW",
+      "value": 13.4,
+      "unit": "%",
+      "reference_range": "11.5 - 15.0",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Total Leukocyte Count (WBC)",
+      "value": 11200,
+      "unit": "cells/mcL",
+      "reference_range": "4000 - 11000",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Platelet Count",
+      "value": 260000,
+      "unit": "cells/mcL",
+      "reference_range": "150000 - 450000",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Neutrophils",
+      "value": 72,
+      "unit": "%",
+      "reference_range": "40 - 70",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Lymphocytes",
+      "value": 22,
+      "unit": "%",
+      "reference_range": "20 - 40",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Monocytes",
+      "value": 4,
+      "unit": "%",
+      "reference_range": "2 - 8",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Eosinophils",
+      "value": 2,
+      "unit": "%",
+      "reference_range": "1 - 6",
+      "category": "Complete Blood Count (CBC)",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Total Cholesterol",
+      "value": 215,
+      "unit": "mg/dL",
+      "reference_range": "< 200 Desirable",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Triglycerides",
+      "value": 165,
+      "unit": "mg/dL",
+      "reference_range": "< 150 Normal",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "HDL Cholesterol",
+      "value": 48,
+      "unit": "mg/dL",
+      "reference_range": "> 50 Optimal",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "LDL Cholesterol",
+      "value": 134,
+      "unit": "mg/dL",
+      "reference_range": "< 100 Optimal",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "VLDL Cholesterol",
+      "value": 33,
+      "unit": "mg/dL",
+      "reference_range": "5 - 30",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    },
+    {
+      "test_name": "Cholesterol / HDL Ratio",
+      "value": 4.48,
+      "unit": "Ratio",
+      "reference_range": "3.3 - 4.4",
+      "category": "Lipid Profile",
+      "report_date": "10-Feb-2024"
+    }
+  ]
+}
