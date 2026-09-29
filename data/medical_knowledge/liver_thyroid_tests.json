@@ -1,0 +1,83 @@
+[
+  {
+    "test_id": "LFT_ALT",
+    "test_name": "Alanine Aminotransferase",
+    "aliases": ["ALT", "SGPT", "Serum Glutamic Pyruvic Transaminase"],
+    "category": "Liver Function Tests (LFT)",
+    "description": "Alanine aminotransferase is an intracellular enzyme found predominantly in hepatocytes (liver cells). Upon cellular injury or membrane damage, ALT spills into the systemic circulation.",
+    "what_it_measures": "Measures hepatocellular injury with high specificity for liver parenchymal damage.",
+    "standard_units": "IU/L (or U/L)",
+    "reference_ranges": {
+      "adult_males": "10 - 40 IU/L",
+      "adult_females": "7 - 35 IU/L"
+    },
+    "clinical_significance": {
+      "elevated_alt": "Marked elevations (> 10-20 times normal) occur in acute viral hepatitis (A, B, C, E), acetaminophen/drug toxicity, or ischemic hepatitis (shock liver). Moderate elevations occur in non-alcoholic fatty liver disease (MASLD), alcoholic hepatitis, and cirrhosis."
+    }
+  },
+  {
+    "test_id": "LFT_AST",
+    "test_name": "Aspartate Aminotransferase",
+    "aliases": ["AST", "SGOT", "Serum Glutamic Oxaloacetic Transaminase"],
+    "category": "Liver Function Tests (LFT)",
+    "description": "Aspartate aminotransferase is found in liver tissue, cardiac muscle, skeletal muscle, kidneys, and brain.",
+    "what_it_measures": "Measures cellular damage in liver, myocardium, or skeletal muscle.",
+    "standard_units": "IU/L (or U/L)",
+    "reference_ranges": {
+      "adults": "10 - 40 IU/L"
+    },
+    "clinical_significance": {
+      "ast_alt_ratio": "An AST/ALT ratio > 2:1 strongly suggests alcoholic liver disease. An AST/ALT ratio < 1 is typical of viral hepatitis and non-alcoholic fatty liver disease. Isolated AST elevation without ALT often points to myocardial or skeletal muscle injury (rhabdomyolysis)."
+    }
+  },
+  {
+    "test_id": "LFT_BILI",
+    "test_name": "Bilirubin (Total and Direct)",
+    "aliases": ["Total Bilirubin", "Direct Bilirubin", "Conjugated Bilirubin"],
+    "category": "Liver Function Tests (LFT)",
+    "description": "Bilirubin is an orange-yellow pigment produced by normal heme breakdown from senescent red blood cells, processed and conjugated in the liver, and excreted via bile into the gut.",
+    "what_it_measures": "Evaluates liver excretory function, biliary patency, and hemolysis.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "total_bilirubin": "0.1 - 1.2 mg/dL",
+      "direct_conjugated_bilirubin": "0.0 - 0.3 mg/dL"
+    },
+    "clinical_significance": {
+      "jaundice": "Elevations above 2.5 - 3.0 mg/dL produce clinical jaundice (yellow sclera and skin). Unconjugated/indirect hyperbilirubinemia indicates hemolysis or Gilbert syndrome; conjugated/direct hyperbilirubinemia indicates biliary obstruction (gallstones, stricture, pancreatic tumor) or viral/drug hepatitis."
+    }
+  },
+  {
+    "test_id": "THY_TSH",
+    "test_name": "Thyroid Stimulating Hormone",
+    "aliases": ["TSH", "Thyrotropin"],
+    "category": "Thyroid Function Panel",
+    "description": "TSH is a glycoprotein hormone secreted by the anterior pituitary gland that directs the thyroid gland to synthesize and release thyroxine (T4) and triiodothyronine (T3). Regulated by negative feedback.",
+    "what_it_measures": "Primary first-line screening biomarker for thyroid gland dysfunction.",
+    "standard_units": "mIU/L (or µIU/mL)",
+    "reference_ranges": {
+      "adults": "0.4 - 4.0 mIU/L",
+      "pregnancy_first_trimester": "0.1 - 2.5 mIU/L"
+    },
+    "clinical_significance": {
+      "elevated_tsh": "Indicates primary hypothyroidism (Hashimoto's autoimmune thyroiditis, iodine deficiency, post-thyroidectomy). Pituitary pumps out excess TSH to stimulate failing thyroid. Symptoms: fatigue, weight gain, cold intolerance, constipation, dry skin, bradycardia.",
+      "suppressed_low_tsh": "Indicates hyperthyroidism (Graves' disease, toxic multinodular goiter, thyroiditis) or excess exogenous levothyroxine replacement. Symptoms: weight loss, heat intolerance, tremor, anxiety, palpitations, diarrhea."
+    }
+  },
+  {
+    "test_id": "THY_FT4",
+    "test_name": "Free Thyroxine",
+    "aliases": ["Free T4", "FT4"],
+    "category": "Thyroid Function Panel",
+    "description": "Free T4 is the unbound, biologically active fraction of the primary hormone thyroxine produced by the thyroid gland.",
+    "what_it_measures": "Measures active unbound thyroxine circulating in blood, unaffected by changes in binding proteins.",
+    "standard_units": "ng/dL (or pmol/L)",
+    "reference_ranges": {
+      "adults": "0.8 - 1.8 ng/dL"
+    },
+    "clinical_significance": {
+      "low_ft4_with_high_tsh": "Definitive diagnosis of overt primary hypothyroidism.",
+      "high_ft4_with_low_tsh": "Definitive diagnosis of overt hyperthyroidism / thyrotoxicosis.",
+      "normal_ft4_with_abnormal_tsh": "Subclinical thyroid dysfunction (subclinical hypothyroidism or subclinical hyperthyroidism)."
+    }
+  }
+]
