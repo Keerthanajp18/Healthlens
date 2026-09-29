@@ -1,0 +1,26 @@
+{
+  "report_date": "2026-09-28",
+  "tests": [
+    {
+      "name": "Hemoglobin",
+      "value": 10.2,
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0 g/dL",
+      "status": "low"
+    },
+    {
+      "name": "WBC",
+      "value": 8200,
+      "unit": "/µL",
+      "reference_range": "4000-11000 /µL",
+      "status": "normal"
+    },
+    {
+      "name": "Platelets",
+      "value": 250000,
+      "unit": "/µL",
+      "reference_range": "150000-450000 /µL",
+      "status": "normal"
+    }
+  ]
+}

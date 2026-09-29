@@ -1,9 +1,12 @@
 """
 HealthLens - Multimodal RAG Framework for Simplifying and Comparing Medical Reports
-Module: Document Processing & Medical Data Pipeline (Person 1)
+
+Includes:
+- Person 1: Document Processing & Medical Data Pipeline
+- Person 2: Medical RAG (Retrieval-Augmented Generation) System
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 from src.pipeline import (
     MedicalDataPipeline,
@@ -18,4 +21,3 @@ __all__ = [
     "compare_reports",
     "analyze_trends",
 ]
-

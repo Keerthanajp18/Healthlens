@@ -1,0 +1,202 @@
+[
+  {
+    "test_id": "CBC_HGB",
+    "test_name": "Hemoglobin",
+    "aliases": ["Hb", "Hgb", "Haemoglobin"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "Hemoglobin is an iron-containing metalloprotein found inside red blood cells (erythrocytes). Its primary physiological role is to transport oxygen from the lungs to all peripheral body tissues and return carbon dioxide from tissues back to the lungs for expiration. Hemoglobin accounts for the characteristic red color of blood and represents about 96% of the red blood cells' dry content by weight.",
+    "what_it_measures": "Measures the concentration of the oxygen-carrying hemoglobin protein in whole blood, directly reflecting the oxygen-carrying capacity of the blood.",
+    "standard_units": "g/dL (grams per deciliter)",
+    "reference_ranges": {
+      "adult_males": "13.8 - 17.2 g/dL",
+      "adult_females": "12.1 - 15.1 g/dL",
+      "pregnant_females": "11.0 - 14.0 g/dL",
+      "children": "11.0 - 16.0 g/dL (varies by age)",
+      "newborns": "14.0 - 24.0 g/dL"
+    },
+    "clinical_significance": {
+      "low_levels": {
+        "condition_name": "Anemia",
+        "causes": [
+          "Iron deficiency anemia (nutritional deficiency or chronic occult blood loss)",
+          "Vitamin B12 or folate deficiency (megaloblastic anemia)",
+          "Chronic kidney disease (decreased erythropoietin production)",
+          "Hemolytic anemia (premature destruction of red blood cells)",
+          "Bone marrow suppression or aplastic anemia",
+          "Chronic inflammatory diseases, infections, or malignancies (anemia of chronic disease)",
+          "Acute blood loss from trauma, gastrointestinal bleeding, or surgery"
+        ],
+        "common_symptoms": [
+          "Fatigue, generalized weakness, and lethargy",
+          "Pale skin, gums, or nail beds (pallor)",
+          "Shortness of breath on exertion (dyspnea)",
+          "Dizziness, lightheadedness, or fainting",
+          "Cold extremities, palpitations, and rapid heart rate (tachycardia)"
+        ]
+      },
+      "high_levels": {
+        "condition_name": "Polycythemia / Erythrocytosis",
+        "causes": [
+          "Dehydration or severe plasma volume contraction (hemoconcentration)",
+          "Polycythemia vera (myeloproliferative neoplasm with autonomous RBC production)",
+          "Chronic hypoxia from chronic obstructive pulmonary disease (COPD), sleep apnea, or cyanotic congenital heart disease",
+          "High altitude acclimatization",
+          "Heavy cigarette smoking (carboxyhemoglobin elevation triggering compensatory erythrocytosis)",
+          "Erythropoietin-secreting tumors (e.g., renal cell carcinoma, hepatoma)"
+        ],
+        "common_symptoms": [
+          "Headaches, dizziness, blurred vision",
+          "Flushed, ruddy complexion (plethora)",
+          "Pruritus (itching), particularly after warm baths",
+          "Increased risk of thrombosis, blood clots, stroke, or deep vein thrombosis"
+        ]
+      }
+    },
+    "critical_values": "Values below 7.0 g/dL frequently indicate urgent need for blood transfusion evaluation; values above 20.0 g/dL carry high risk of hyperviscosity syndrome."
+  },
+  {
+    "test_id": "CBC_WBC",
+    "test_name": "White Blood Cell Count",
+    "aliases": ["WBC", "Leukocyte Count", "Total White Blood Cells"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "White blood cells (leukocytes) are nucleated cellular components of the immune system produced primarily in the bone marrow. They circulate in the bloodstream and lymphatic system, serving as the body's primary defense mechanism against infectious microorganisms (bacteria, viruses, fungi, parasites), foreign antigens, and malignant cells, and mediating inflammatory responses.",
+    "what_it_measures": "Measures the total number of circulating white blood cells per microliter of blood. It evaluates the body's immune competence, capacity to respond to infections, inflammatory activity, and bone marrow cellular proliferation.",
+    "standard_units": "cells/mcL (or cells/µL, or 10^3/µL, or x10^9/L)",
+    "reference_ranges": {
+      "adults": "4,000 - 11,000 cells/mcL (4.0 - 11.0 x 10^3/mcL)",
+      "infants": "9,000 - 30,000 cells/mcL",
+      "children": "5,000 - 15,000 cells/mcL"
+    },
+    "clinical_significance": {
+      "high_levels": {
+        "condition_name": "Leukocytosis",
+        "causes": [
+          "Acute bacterial or localized infections (e.g., pneumonia, appendicitis, sepsis)",
+          "Systemic inflammation (rheumatoid arthritis, inflammatory bowel disease, vasculitis)",
+          "Physical or emotional acute stress, intense exercise, seizures",
+          "Tissue necrosis, severe burns, heart attack (myocardial infarction), major surgery",
+          "Hematologic malignancies (leukemias, myeloproliferative disorders, lymphomas)",
+          "Medications such as corticosteroids (prednisone), lithium, and colony-stimulating factors (G-CSF)",
+          "Smoking and severe allergic reactions"
+        ],
+        "common_symptoms": [
+          "Fever, chills, night sweats",
+          "Localized signs of infection (pain, erythema, swelling, purulent discharge)",
+          "Unexplained fatigue and weight loss in chronic or hematologic conditions"
+        ]
+      },
+      "low_levels": {
+        "condition_name": "Leukopenia",
+        "causes": [
+          "Severe overwhelming viral infections (e.g., influenza, HIV, viral hepatitis, Epstein-Barr virus)",
+          "Bone marrow suppression from chemotherapy, radiation therapy, or toxic chemical exposure",
+          "Aplastic anemia, myelodysplastic syndromes, or marrow infiltration",
+          "Autoimmune disorders causing leukocyte destruction (systemic lupus erythematosus, Felty's syndrome)",
+          "Severe overwhelming sepsis depleting circulating leukocytes faster than marrow production",
+          "Medications such as antithyroid drugs, clozapine, carbamazepine, sulfasalazine, immunosuppressants",
+          "Severe nutritional deficiencies (Vitamin B12, folate, copper deficiency)"
+        ],
+        "common_symptoms": [
+          "Increased vulnerability to recurrent, opportunistic, or severe infections",
+          "Persistent or recurrent fever, oral ulcers, sore throat, skin abscesses"
+        ]
+      }
+    },
+    "wbc_differential_overview": {
+      "neutrophils": "50% - 70% of total WBC. Primary first responders to acute bacterial infection and acute inflammation.",
+      "lymphocytes": "20% - 40% of total WBC. Key players in viral defense, cell-mediated immunity (T cells), and antibody production (B cells).",
+      "monocytes": "2% - 8% of total WBC. Differentiate into macrophages and dendritic cells; phagocytose debris, bacteria, and antigen presentation.",
+      "eosinophils": "1% - 4% of total WBC. Combat parasitic helminth infections and mediate allergic/asthmatic responses.",
+      "basophils": "0.5% - 1% of total WBC. Release histamine and heparin in allergic and hypersensitivity reactions."
+    },
+    "critical_values": "WBC < 2,000 cells/mcL indicates severe leukopenia with high risk of life-threatening opportunistic infection; WBC > 30,000 - 50,000 cells/mcL (leukemoid reaction vs. leukemia) warrants immediate urgent hematological workup."
+  },
+  {
+    "test_id": "CBC_RBC",
+    "test_name": "Red Blood Cell Count",
+    "aliases": ["RBC", "Erythrocyte Count"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "Red blood cells (erythrocytes) are biconcave discoid cells lacking nuclei that are packed with hemoglobin. Their unique flexible shape optimizes surface area for gas diffusion across capillary beds throughout the human body.",
+    "what_it_measures": "Measures the total number of circulating red blood cells per microliter of blood.",
+    "standard_units": "million cells/mcL (or 10^6/µL)",
+    "reference_ranges": {
+      "adult_males": "4.5 - 5.9 million cells/mcL",
+      "adult_females": "4.1 - 5.1 million cells/mcL"
+    },
+    "clinical_significance": {
+      "low_levels": "Indicates anemia, acute or chronic blood loss, marrow failure, or hemolysis.",
+      "high_levels": "Indicates primary polycythemia, chronic hypoxia (COPD, cyanotic heart disease), dehydration, or high-altitude acclimatization."
+    }
+  },
+  {
+    "test_id": "CBC_HCT",
+    "test_name": "Hematocrit",
+    "aliases": ["HCT", "Packed Cell Volume", "PCV"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "Hematocrit is the proportion of total blood volume occupied by packed red blood cells, expressed as a percentage.",
+    "what_it_measures": "Measures the volume percentage of red blood cells in whole blood (roughly three times the hemoglobin value in normocytic conditions).",
+    "standard_units": "% (percentage)",
+    "reference_ranges": {
+      "adult_males": "41% - 50%",
+      "adult_females": "36% - 48%"
+    },
+    "clinical_significance": {
+      "low_levels": "Indicates anemia, fluid overload (hemodilution), or hemorrhage.",
+      "high_levels": "Indicates dehydration (relative hemoconcentration), polycythemia vera, or chronic pulmonary disease."
+    }
+  },
+  {
+    "test_id": "CBC_PLT",
+    "test_name": "Platelet Count",
+    "aliases": ["PLT", "Thrombocytes"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "Platelets (thrombocytes) are non-nucleated cell fragments derived from bone marrow megakaryocytes that are essential for primary hemostasis and blood clot formation.",
+    "what_it_measures": "Measures the total number of circulating platelets per microliter of blood to assess clotting ability and bleeding risk.",
+    "standard_units": "10^3/mcL (thousands per microliter) or cells/mcL",
+    "reference_ranges": {
+      "adults": "150,000 - 450,000 cells/mcL (150 - 450 x 10^3/mcL)"
+    },
+    "clinical_significance": {
+      "low_levels": {
+        "condition_name": "Thrombocytopenia",
+        "causes": ["Immune thrombocytopenic purpura (ITP)", "Drug-induced destruction (heparin, antibiotics)", "Splenomegaly with platelet sequestration", "Marrow suppression, aplastic anemia, or viral infections (dengue, HIV)"],
+        "risks": ["Spontaneous bruising (ecchymosis)", "Petechiae (pinpoint capillary bleeds)", "Mucosal bleeding (epistaxis, gingival bleeds)", "Life-threatening internal hemorrhage if < 10,000 - 20,000 cells/mcL"]
+      },
+      "high_levels": {
+        "condition_name": "Thrombocytosis",
+        "causes": ["Reactive/secondary to acute infection, inflammation, tissue damage, or iron deficiency", "Essential thrombocythemia (myeloproliferative disorder)", "Post-splenectomy"],
+        "risks": ["Increased risk of arterial and venous thrombosis (clots)", "Paradoxical bleeding if platelet function is abnormal"]
+      }
+    }
+  },
+  {
+    "test_id": "CBC_INDICES",
+    "test_name": "RBC Indices (MCV, MCH, MCHC, RDW)",
+    "aliases": ["Red Cell Indices", "Erythrocyte Indices"],
+    "category": "Complete Blood Count (CBC)",
+    "description": "RBC indices provide morphological metrics regarding average red blood cell size, hemoglobin content, and size variation.",
+    "what_it_measures": "Categorizes anemias into microcytic, normocytic, or macrocytic and hypochromic vs normochromic.",
+    "components": {
+      "MCV": {
+        "full_name": "Mean Corpuscular Volume",
+        "reference_range": "80 - 100 fL",
+        "significance": "Low MCV (< 80 fL) indicates microcytic anemia (iron deficiency, thalassemia, lead toxicity). High MCV (> 100 fL) indicates macrocytic anemia (Vitamin B12/folate deficiency, alcohol abuse, hypothyroidism, liver disease)."
+      },
+      "MCH": {
+        "full_name": "Mean Corpuscular Hemoglobin",
+        "reference_range": "27 - 33 pg",
+        "significance": "Measures average mass of hemoglobin inside each RBC."
+      },
+      "MCHC": {
+        "full_name": "Mean Corpuscular Hemoglobin Concentration",
+        "reference_range": "32 - 36 g/dL",
+        "significance": "Measures hemoglobin concentration relative to RBC size. Low in hypochromic microcytic anemias."
+      },
+      "RDW": {
+        "full_name": "Red Cell Distribution Width",
+        "reference_range": "11.5% - 14.5%",
+        "significance": "Measures degree of variation in red blood cell volume (anisocytosis). Elevated in early iron deficiency anemia before MCV drops."
+      }
+    }
+  }
+]

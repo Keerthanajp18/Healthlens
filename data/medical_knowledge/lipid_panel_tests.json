@@ -1,0 +1,77 @@
+[
+  {
+    "test_id": "LIPID_CHOL",
+    "test_name": "Total Cholesterol",
+    "aliases": ["Cholesterol", "TC"],
+    "category": "Lipid Profile / Cardiovascular Risk",
+    "description": "Total cholesterol is the aggregate measurement of all circulating cholesterol molecules carried by lipoproteins in the bloodstream, including LDL, HDL, and VLDL fractions.",
+    "what_it_measures": "Measures total circulating cholesterol concentration to assess atherosclerotic cardiovascular disease (ASCVD) risk.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "desirable": "Below 200 mg/dL",
+      "borderline_high": "200 - 239 mg/dL",
+      "high": "240 mg/dL and above"
+    },
+    "clinical_significance": {
+      "elevated": "Associated with plaque accumulation inside coronary and peripheral arterial walls, increasing risk of coronary artery disease, angina, myocardial infarction, and ischemic stroke.",
+      "low": "Very low cholesterol (< 120 mg/dL) can be observed in severe malnutrition, advanced liver disease, hyperthyroidism, or malabsorption syndromes."
+    }
+  },
+  {
+    "test_id": "LIPID_LDL",
+    "test_name": "LDL Cholesterol",
+    "aliases": ["Low-Density Lipoprotein", "LDL-C", "Bad Cholesterol"],
+    "category": "Lipid Profile / Cardiovascular Risk",
+    "description": "Low-density lipoproteins transport cholesterol particles synthesized in the liver to peripheral tissues. When present in excess, LDL penetrates endothelial lining of arterial walls, becomes oxidized, and forms atherosclerotic plaques.",
+    "what_it_measures": "Quantifies circulating atherogenic low-density lipoprotein cholesterol; primary target of lipid-lowering statin therapy.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "optimal": "Below 100 mg/dL (Below 70 mg/dL or 55 mg/dL for high/very high ASCVD risk patients)",
+      "near_optimal": "100 - 129 mg/dL",
+      "borderline_high": "130 - 159 mg/dL",
+      "high": "160 - 189 mg/dL",
+      "very_high": "190 mg/dL and above (suggests familial hypercholesterolemia)"
+    },
+    "clinical_significance": {
+      "elevated_ldl": "Directly linked to atheroma formation, coronary stenosis, and cardiovascular events. Managed through lifestyle modifications, statins, ezetimibe, or PCSK9 inhibitors.",
+      "low_ldl": "Achieved with aggressive statin/PCSK9 therapy; intrinsically low levels occur in abetalipoproteinemia."
+    }
+  },
+  {
+    "test_id": "LIPID_HDL",
+    "test_name": "HDL Cholesterol",
+    "aliases": ["High-Density Lipoprotein", "HDL-C", "Good Cholesterol"],
+    "category": "Lipid Profile / Cardiovascular Risk",
+    "description": "High-density lipoproteins participate in reverse cholesterol transport, scavenging excess cholesterol from arterial tissues and foam cells and transporting it back to the liver for catabolism and biliary excretion.",
+    "what_it_measures": "Measures cardioprotective high-density lipoprotein cholesterol levels.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "low_heart_disease_risk_factor": "Below 40 mg/dL for men; Below 50 mg/dL for women",
+      "acceptable": "40 - 59 mg/dL for men; 50 - 59 mg/dL for women",
+      "optimal_protective": "60 mg/dL and above"
+    },
+    "clinical_significance": {
+      "low_hdl": "Recognized independent risk factor for coronary heart disease, metabolic syndrome, and insulin resistance. Often exacerbated by sedentary lifestyle, obesity, smoking, and high refined carbohydrate diet.",
+      "high_hdl": "Protective against atherosclerosis, though extremely high levels (> 100 mg/dL) due to genetic CETP mutations may not confer additional protection."
+    }
+  },
+  {
+    "test_id": "LIPID_TRIG",
+    "test_name": "Triglycerides",
+    "aliases": ["TG", "Serum Triglycerides"],
+    "category": "Lipid Profile / Cardiovascular Risk",
+    "description": "Triglycerides are the main chemical form of energy storage in adipose tissue, derived from dietary fats and hepatic lipogenesis from excess carbohydrates.",
+    "what_it_measures": "Measures blood triglyceride concentration in fasting state.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "normal": "Below 150 mg/dL",
+      "borderline_high": "150 - 199 mg/dL",
+      "high": "200 - 499 mg/dL",
+      "very_high_critical": "500 mg/dL and above"
+    },
+    "clinical_significance": {
+      "hypertriglyceridemia": "Levels > 150 mg/dL contribute to metabolic syndrome, insulin resistance, non-alcoholic fatty liver disease (NAFLD/MASLD), and cardiovascular disease. Extreme elevations (> 500 - 1,000 mg/dL) present significant danger of acute necrotizing pancreatitis.",
+      "low_triglycerides": "Can reflect malnutrition, low-fat diets, or hyperthyroidism."
+    }
+  }
+]
