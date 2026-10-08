@@ -1,0 +1,110 @@
+[
+  {
+    "test_id": "CMP_GLU",
+    "test_name": "Blood Glucose (Fasting)",
+    "aliases": ["FBS", "Fasting Blood Sugar", "Serum Glucose"],
+    "category": "Comprehensive Metabolic Panel (CMP)",
+    "description": "Glucose is the primary simple carbohydrate used by cells as an energy substrate, regulated primarily by pancreatic insulin and glucagon.",
+    "what_it_measures": "Measures the concentration of free glucose circulating in blood plasma following an overnight fast of 8-12 hours.",
+    "standard_units": "mg/dL (milligrams per deciliter)",
+    "reference_ranges": {
+      "normal_fasting": "70 - 99 mg/dL",
+      "impaired_fasting_prediabetes": "100 - 125 mg/dL",
+      "diabetes_mellitus_threshold": "126 mg/dL or higher (on two separate tests)"
+    },
+    "clinical_significance": {
+      "hyperglycemia": "Elevated fasting blood glucose is hallmark of Type 1 and Type 2 Diabetes Mellitus, gestational diabetes, Cushing syndrome, acute pancreatitis, severe physiological stress, or corticosteroid therapy.",
+      "hypoglycemia": "Low blood glucose (< 70 mg/dL) causes autonomic symptoms (shakiness, sweating, palpitations) and neuroglycopenia (confusion, seizures). Caused by excessive insulin/sulfonylurea dosage, severe liver failure, insulinoma, or adrenal insufficiency."
+    }
+  },
+  {
+    "test_id": "CMP_HBA1C",
+    "test_name": "Hemoglobin A1c",
+    "aliases": ["HbA1c", "Glycated Hemoglobin", "Glycohemoglobin"],
+    "category": "Glycemic & Diabetes Biomarkers",
+    "description": "Hemoglobin A1c is formed when circulating glucose non-enzymatically binds to the N-terminal valine of the hemoglobin beta chain. Because red blood cells live roughly 120 days, HbA1c reflects average blood sugar over the preceding 2 to 3 months.",
+    "what_it_measures": "Measures the percentage of total hemoglobin bound to glucose over approximately 90-120 days.",
+    "standard_units": "% (percentage)",
+    "reference_ranges": {
+      "normal": "Below 5.7%",
+      "prediabetes": "5.7% - 6.4%",
+      "diabetes_diagnosis": "6.5% or higher",
+      "therapeutic_target_for_diabetics": "Generally below 7.0% (individualized)"
+    },
+    "clinical_significance": {
+      "elevated": "Indicates chronic hyperglycemia and increased long-term risk of microvascular complications (diabetic retinopathy, nephropathy, neuropathy) and macrovascular cardiovascular disease.",
+      "falsely_altered": "Conditions altering RBC lifespan alter HbA1c: hemolytic anemia, recent blood transfusion, or acute blood loss lower HbA1c; iron deficiency anemia can falsely elevate it."
+    }
+  },
+  {
+    "test_id": "CMP_CREAT",
+    "test_name": "Serum Creatinine",
+    "aliases": ["Creatinine", "Cr", "Serum Cr"],
+    "category": "Renal Function Panel",
+    "description": "Creatinine is a metabolic waste breakdown product of creatine phosphate from healthy skeletal muscle contraction. It is filtered freely by the glomeruli in the kidneys without significant reabsorption.",
+    "what_it_measures": "Measures kidney filtration efficiency and glomerular filtration capacity.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "adult_males": "0.7 - 1.3 mg/dL",
+      "adult_females": "0.5 - 1.1 mg/dL"
+    },
+    "clinical_significance": {
+      "elevated_levels": "Indicates impaired renal function, acute kidney injury (AKI), chronic kidney disease (CKD), urinary tract obstruction, severe dehydration, or muscle breakdown (rhabdomyolysis).",
+      "low_levels": "Seen in severe muscle wasting, advanced cachexia, malnutrition, or low protein intake."
+    }
+  },
+  {
+    "test_id": "CMP_EGFR",
+    "test_name": "Estimated Glomerular Filtration Rate",
+    "aliases": ["eGFR", "Glomerular Filtration Rate"],
+    "category": "Renal Function Panel",
+    "description": "eGFR calculates how many milliliters of blood the kidneys clear of creatinine per minute, based on serum creatinine, age, and sex using standardized equations (CKD-EPI).",
+    "what_it_measures": "Quantifies overall functional renal filtration capacity and stages chronic kidney disease.",
+    "standard_units": "mL/min/1.73 m²",
+    "reference_ranges": {
+      "normal": "90 mL/min/1.73 m² or higher",
+      "mild_reduction_stage_2_ckd": "60 - 89 mL/min/1.73 m²",
+      "moderate_reduction_stage_3_ckd": "30 - 59 mL/min/1.73 m²",
+      "severe_reduction_stage_4_ckd": "15 - 29 mL/min/1.73 m²",
+      "kidney_failure_stage_5_esrd": "Less than 15 mL/min/1.73 m²"
+    }
+  },
+  {
+    "test_id": "CMP_BUN",
+    "test_name": "Blood Urea Nitrogen",
+    "aliases": ["BUN", "Urea Nitrogen"],
+    "category": "Renal Function Panel",
+    "description": "Urea nitrogen is a waste byproduct formed in the liver during the breakdown of dietary and bodily proteins, excreted primarily by the kidneys.",
+    "what_it_measures": "Measures the amount of nitrogen in blood derived from urea to evaluate renal clearance and hydration status.",
+    "standard_units": "mg/dL",
+    "reference_ranges": {
+      "adults": "7 - 20 mg/dL"
+    },
+    "clinical_significance": {
+      "elevated_bun": "Azotemia caused by prerenal causes (dehydration, congestive heart failure, upper GI bleeding, high-protein diet), renal causes (intrinsic kidney disease), or postrenal causes (urinary obstruction). A BUN/Creatinine ratio > 20:1 strongly suggests prerenal dehydration.",
+      "low_bun": "Severe liver disease (inability to synthesize urea), low-protein starvation, or overhydration."
+    }
+  },
+  {
+    "test_id": "CMP_ELECTROLYTES",
+    "test_name": "Serum Electrolytes (Sodium, Potassium, Calcium)",
+    "aliases": ["Electrolyte Panel", "Lytes"],
+    "category": "Comprehensive Metabolic Panel (CMP)",
+    "description": "Electrolytes are electrically charged minerals essential for maintaining fluid balance, neuromuscular transmission, cardiac rhythm, and blood pH homeostasis.",
+    "what_it_measures": "Measures concentrations of key cation and anion electrolytes in serum.",
+    "components": {
+      "Sodium_Na": {
+        "reference_range": "135 - 145 mEq/L (or mmol/L)",
+        "significance": "Primary extracellular cation regulating osmolality and fluid distribution. Hyponatremia (< 135) causes nausea, confusion, headache, and cerebral edema; hypernatremia (> 145) causes thirst, lethargy, and dehydration."
+      },
+      "Potassium_K": {
+        "reference_range": "3.5 - 5.0 mEq/L (or mmol/L)",
+        "significance": "Primary intracellular cation crucial for cardiac conduction. Hypokalemia (< 3.5) causes muscle weakness, cramps, and ventricular arrhythmias; Hyperkalemia (> 5.0) carries life-threatening risks of peaked T waves, conduction block, and cardiac arrest."
+      },
+      "Calcium_Ca": {
+        "reference_range": "8.5 - 10.2 mg/dL",
+        "significance": "Essential for bone mineralization, coagulation cascade, and neural signaling. Hypercalcemia (> 10.2) occurs in hyperparathyroidism or malignancy; hypocalcemia (< 8.5) causes tetany, perioral numbness, and Chvostek's sign."
+      }
+    }
+  }
+]

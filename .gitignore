@@ -23,3 +23,9 @@ Thumbs.db
 
 # Output data directory temporary artifacts
 data/processed/*.png
+
+# Local generated files
+vector_db/
+
+# Environment variables
+.env
